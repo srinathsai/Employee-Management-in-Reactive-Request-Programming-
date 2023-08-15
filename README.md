@@ -16,3 +16,7 @@ Here in this architecture every layer returns either Mono or Flux type. And also
   - PostMan Client
   - Mongodb image from Dockers.
     
+## Steps of Execution:-
+  1) First from Dockerhub pull MongoDB.
+  2) Next in the application.properties file from my folder change the data source link to the name of the image that you have saved which contains MongoDB.
+  3) 
