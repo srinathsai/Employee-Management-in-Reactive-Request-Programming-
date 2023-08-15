@@ -19,4 +19,4 @@ Here in this architecture every layer returns either Mono or Flux type. And also
 ## Steps of Execution:-
   1) First from Dockerhub pull MongoDB.
   2) Next in the application.properties file from my folder change the data source link to the name of the image that you have saved which contains MongoDB.
-  3) 
+  3) Now in Postman client you can play with any of your requests by typing localhost:8080/ and following based on the link given for each rest api method in the controller class. To see these results go to MongoDB bash and type commands for each and every respective HTTP request that you have tried in the POSTMAN client.
